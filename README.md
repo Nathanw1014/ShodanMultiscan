@@ -3,6 +3,10 @@ Shodan CLI doesnt currently have a way to submit a scan for multiple IP addresse
 
 This shell script loops through an input file and submits a scan for each IP on each line of the input file. 
 
+The response is appended too the output file "Shodanscan.txt"
+
+Each scan IP scanned will use up 1 credit from your Shodan account
+
 ## Requirements
 Shodan CLI
 `sudo apt install python3-shodan`
